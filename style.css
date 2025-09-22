@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/001/838/464/non_2x/golden-black-premium-background-free-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    background: #6A1E55;
+    color: #f2f4fa;
+    padding: 10px;
+   
+}
+ 
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+    display: inline;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: justify;
+}
+
+nav ul li a:hover {
+    color: #FFCC00;
+    text-align: justify;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+
+  }
+
+
+  li {
+color: white;
+  }
+    .container ul li {
+color: white;
+text-align:left;
+  }
+h1{
+  color: #070707;
+  text-align: center;
+text-decoration: underline;
+background: linear-gradient(#5EABD6,#EBD6FB, #CB9DF0);
+border-radius: 30px 30px 30px 30px;
+border: 1px solid #7d5a5a;
+text-align: center;
+box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+
+   
+}
+h2 {
+    place-items: center;
+    color: #F09319;
+    text-align: center;
+
+}
+h4 {
+    text-align: center;
+    
+
+}
+ img {
+    max-width: 100%;
+    border-radius: 5px;
+    width: 300px;   
+        height: 300px;
+     }
+. img-container img{
+    margin: auto;
+    display: block;
+    height: auto;
+}
+p{
+  text-align: justify;
+}
+
+ 
+/* Make whole page a flex container to center content */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Keep header on top */
+    min-height: 100vh;
+}
+
+/* Container for the main section */
+.container {
+    flex: 1; /* Takes up remaining height */
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    flex-direction: column;  /* Stack heading and form vertically */
+}
+.container about{
+  color:#44aaf8;
+}
+   .about-content{
+   display: flex;
+    justify-content: flex-start; 
+    color: #44aaf8;
+  text-align: left;
+}
+.about-content ol li{
+    color: white;
+  text-align: justify;
+}
+
+
+/* Contact form box */
+.contact-container {
+    background: #006241;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container p{
+  color: white;
+  text-align: justify;
+}
+/* Headings */
+h2 {
+    text-align: center;
+    color: #FFCC00;
+}
+h3{
+  color: #f06668;
+}
+h4{
+    color: darkviolet;
+}/* Form labels */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Input fields and textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(242, 243, 242);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button */
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    background: hsl(212, 98%, 17%);
+}
+
+/* Footer styling */
+footer {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-color: #fff;
+    text-align: center;
+    padding: 10px;
+    background-color: #6A1E55;
+    height: 100px;
+   
+
+}

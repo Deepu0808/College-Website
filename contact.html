@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav></header>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <h1>ACS College Of Engineering</h1>
+    <h3>Get in Touch for your child Best Future </h3>
+       
+    
+   <div class="contact-container">
+    <form>
+        <label for="student-name">Student Name</label>
+        <input type="text" id="student-name" name="student-name" placeholder="Enter your Student name" required>
+
+        <label for="parent-name">Parent Name</label>
+        <input type="text" id="parent-name" name="parent-name" placeholder="Enter parent name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="contact">Contact Number</label>
+        <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number" required>
+
+        <label for="address">Address</label>
+        <textarea id="address" name="address" placeholder="Address" required></textarea>
+
+        <button type="button" onclick="submitForm()">Let's start</button>
+    </form>
+</div>
+
+    <footer>
+        <p><p> ACS College | Brighter future for children  </p>
+        <p>acscollegeofengineering@gmail.com</p>
+    </footer>
+</body>
+</html>
